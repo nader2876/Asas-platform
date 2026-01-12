@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تفاصيل الدورة والدروس - أكاديمية اساس">
+    <title>أكاديمية اساس | محتوى الدورة</title>
+    
+    <!-- Bootstrap 5 CSS (RTL support) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-layer-group me-2"></i> أكاديمية اساس
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">محتوى الدورة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">اتصل بنا</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="login.html" class="btn btn-primary-custom">تسجيل الدخول</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dynamic Hero Section -->
+    <section class="hero-section" id="courseHero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-4">
+                            <li class="breadcrumb-item"><a href="index.html">الدورات</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page" id="breadcrumbCurrent">...</li>
+                        </ol>
+                    </nav>
+                    <h1 class="hero-title mb-3" id="courseTitle">جاري تحميل الدورة...</h1>
+                    <p class="hero-subtitle" id="courseDescription">Please wait while content loads</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons List Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>دروس الدورة</h2>
+                <p class="text-muted">المحتوى التعليمي</p>
+            </div>
+
+            <div class="row g-4" id="lessonsContainer">
+                <!-- Lessons injected by JS -->
+            </div>
+            
+            <div class="row mt-5 text-center">
+                <div class="col-12">
+                     <a href="index.html" class="btn btn-outline-custom mb-3">
+                        <i class="fas fa-arrow-right me-2"></i> العودة لقائمة الدورات
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">أكاديمية اساس | Digital</h5>
+                    <p class="text-muted">نساعدك على فهم اقتصاديات العالم الرقمي لتكون مستعداً للمستقبل.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">تواصل معنا</h5>
+                    <div class="footer-link"><i class="fas fa-envelope me-2 text-primary"></i> support@asas-digital.com</div>
+                    <div class="footer-link"><i class="fab fa-whatsapp me-2 text-primary"></i> +962 79 000 0000</div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">تابعنا</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-secondary-subtle mt-4 pt-3 text-center text-muted">
+                <small>© 2026 جميع الحقوق محفوظة لأكاديمية اساس الرقمية</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Access Denied Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">تنبيه</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <i class="fas fa-lock lock-icon"></i>
+                    <h4 class="mb-3">محفوظ</h4>
+                    <p class="text-muted mb-4">هذا المحتوى مخصص للمسجلين في الدورة</p>
+                    <a href="login.html" class="btn btn-primary-custom w-100">تسجيل الدخول</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

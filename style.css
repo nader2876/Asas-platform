@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Lesson Cards */
-.lesson-card {
+/* Lesson and Course Cards */
+.lesson-card, .course-card {
     background: var(--white);
     border: 1px solid #eee;
     border-radius: 12px;
@@ -122,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.lesson-card:hover {
+.lesson-card:hover, .course-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.08);
     border-color: var(--secondary-color);
@@ -142,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.5s;
 }
 
-.lesson-card:hover .lesson-card-img {
+.lesson-card:hover .lesson-card-img, .course-card:hover .lesson-card-img {
     transform: scale(1.05);
 }
 
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity var(--transition-speed);
 }
 
-.lesson-card:hover .lesson-overlay {
+.lesson-card:hover .lesson-overlay, .course-card:hover .lesson-overlay {
     opacity: 1;
 }
 
