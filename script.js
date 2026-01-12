@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "نماذج التمويل والإعلانات في Meta وInstagram وSnapchat",
             description: "شرح عملي لنماذج الإعلانات، البيانات، والتمويل في منصات التواصل الاجتماعي.",
             lessons: [
-                { number: "الدرس الأول", title: "كيف تحقق Meta أرباحها من Facebook وInstagram", desc: "نظرة عامة على مصادر الدخل الرئيسية لشركة ميتا.", image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=600" },
+                { number: "الدرس الأول", title: "كيف تحقق Meta أرباحها من Facebook وInstagram", desc: "نظرة عامة على مصادر الدخل الرئيسية لشركة ميتا.", image: "https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?auto=format&fit=crop&q=80&w=600" },
                 { number: "الدرس الثاني", title: "نظام الإعلانات في Instagram (Ads Manager)", desc: "شرح لوحة التحكم الإعلانية.", image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&q=80&w=600" },
                 { number: "الدرس الثالث", title: "كيف يستخدم Facebook بيانات المستخدمين", desc: "قيمة البيانات الشخصية وكيف يتم جمعها.", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" },
                 { number: "الدرس الرابع", title: "Snapchat Ads – نموذج مختلف", desc: "نموذج إيرادات سناب شات القائم على الواقع المعزز.", image: "https://images.unsplash.com/photo-1634455845076-fa694c979d36?auto=format&fit=crop&q=80&w=600" },
