@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Data: Courses and Lessons ---
     const coursesData = {
         1: {
-            title: "نماذج التمويل والإعلانات في Meta وInstagram وSnapchat",
+            title: "نماذج التمويل والإعلانات في Meta وtiktok وSnapchat",
             description: "شرح عملي لنماذج الإعلانات، البيانات، والتمويل في منصات التواصل الاجتماعي.",
             lessons: [
                 { number: "الدرس الأول", title: "كيف تحقق Meta أرباحها من Facebook وInstagram", desc: "نظرة عامة على مصادر الدخل الرئيسية لشركة ميتا.", image: "https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?auto=format&fit=crop&q=80&w=600" },
